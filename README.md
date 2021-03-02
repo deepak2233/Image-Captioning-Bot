@@ -2,7 +2,9 @@
 
 `Image Captioning` can be defined in simple words as ``"Automatically generating the textual description using an artificial intelligence based system for an image"``. The goal of such a system is to convert a given input image into the textual Description or rather Natural Language based Description.  
 
-![alt text](https://github.com/deepak2233/Image-Captioning-Bot/Support/intro.png)
+<p align = 'center'>
+  <img src = './Support/intro.png' align = 'center'>
+</p>
 
 The above example is enough to understand image captioning.  
 
@@ -37,13 +39,13 @@ The task of image captioning can be divided into two modules logically – one i
 For our image-based model (viz encoder) – we usually rely on a `Convolutional Neural Network` model. And for our language-based model (viz decoder) – we rely on a `Recurrent Neural Network`. The image below summarizes the approach given above.
 
 <p align = 'center'>
-  <img src = './support/arch.png' width = '50%' height = '50%'>
+  <img src = './Support/arch.png' width = '50%' height = '50%'>
 </p>
 
 This architecture heavily employees ``"Encoder-Decoder"`` framework where encoder part is implemented using the convnet architecture and decoder part is implemented using GRU cell based recurrent nets.
 
 <p align = 'center'>
-  <img src = './support/encod-decod.png' align = 'center'>
+  <img src = './Support/encod-decod.png' align = 'center'>
 </p>
 
 For the convnet part we can employ transfer learning and can use some models from ImageNet and then Fine tune them as per our requirement.  
