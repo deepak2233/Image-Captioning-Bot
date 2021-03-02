@@ -13,21 +13,21 @@ It requires methods both from computer vision to understand the content of an im
 This is also a very active area of research and an interesting multi modal topic where combination of both image and text processing is used to build a useful Deep Learning application, aka Image Captioning.    
 
 ---
-Dataset
+### Dataset
 The dataset used is flickr8k. You can request the data [here](https://www.kaggle.com/shadabhussain/flickr8k). Extract the images in Flickr8K_Data and the text data in Flickr8K_Text.
 
 ---
-Requirements
-Tensorflow
-Keras
-Numpy
-h5py
-Pandas
-Pillow
-Pyttsx
+### Requirements
+- Tensorflow
+- Keras
+- Numpy
+- h5py
+- Pandas
+- NLTK
+- OpenCv
 
 ---
-> Applications of Image captioning
+### Applications of Image captioning
 1.	Probably can be used in the applications where text is used mostly and with the use of this we can infer a image in form of text.
 2.	NLP is used extensively in the market now-a-days. For example, summarizing or gaining insights from a large corpus of text. In the same way, we can use the same concept to get insights from images as well.
 3.	We can build a 360-degree metastore and make use of it in a wide variety of business like making user searches more efficient on an e-commerce platform based on metadata of products, other may be some other things like recommendations and all. One such application is here: https://www.sophist.io/
@@ -54,9 +54,10 @@ This architecture heavily employees ``"Encoder-Decoder"`` framework where encode
 For the convnet part we can employ transfer learning and can use some models from ImageNet and then Fine tune them as per our requirement.  
 This kind of system is known as attention-based system, which automatically learns to describe the content of an image in words. We can train this model in a standard manner using standard backprop technique and stochastically by maximizing a variationally lower bound.  
 
+---
 I found these two papers quite handy:
-1.	Show and Tell: A Neural Image Caption Generator
-2.	Show, Attend and Tell: Neural Image Caption Generation with Visual image
+ - Show and Tell: A Neural Image Caption Generator
+ -	Show, Attend and Tell: Neural Image Caption Generation with Visual image
 
 ---
 > System Information
