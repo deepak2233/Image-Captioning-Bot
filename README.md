@@ -50,6 +50,7 @@ This architecture heavily employees ``"Encoder-Decoder"`` framework where encode
   <img src = './Support/encod-decod.png' align = 'center'>
 </p>
 
+---
 For the convnet part we can employ transfer learning and can use some models from ImageNet and then Fine tune them as per our requirement.  
 This kind of system is known as attention-based system, which automatically learns to describe the content of an image in words. We can train this model in a standard manner using standard backprop technique and stochastically by maximizing a variationally lower bound.  
 
@@ -70,6 +71,7 @@ I found these two papers quite handy:
 ### Output
 The output of the model is a caption to the image and a python library called pyttsx which converts the generated text to audio
 
+---
 ### Results
 <p align = 'center'>
   <img src = './Support/first2.jpg' align = 'center'>
