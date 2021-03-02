@@ -28,11 +28,11 @@ The dataset used is flickr8k. You can request the data [here](https://www.kaggle
 
 ---
 ### Applications of Image captioning
-1.	Probably can be used in the applications where text is used mostly and with the use of this we can infer a image in form of text.
-2.	NLP is used extensively in the market now-a-days. For example, summarizing or gaining insights from a large corpus of text. In the same way, we can use the same concept to get insights from images as well.
-3.	We can build a 360-degree metastore and make use of it in a wide variety of business like making user searches more efficient on an e-commerce platform based on metadata of products, other may be some other things like recommendations and all. One such application is here: https://www.sophist.io/
-4.	We can describe like what happen in a given video segment.
-5.	Can be used to give something back to mankind for visually impaired people.
+  - Probably can be used in the applications where text is used mostly and with the use of this we can infer a image in form of text.
+  - NLP is used extensively in the market now-a-days. For example, summarizing or gaining insights from a large corpus of text. In the same way, we can use the same concept to get insights from images as well.
+  - We can build a 360-degree metastore and make use of it in a wide variety of business like making user searches more efficient on an e-commerce platform based on metadata of products, other may be some other things like recommendations and all. One such application is here: https://www.sophist.io/
+  - We can describe like what happen in a given video segment.
+  - Can be used to give something back to mankind for visually impaired people.
  and many more.
 
 ---
@@ -55,7 +55,7 @@ For the convnet part we can employ transfer learning and can use some models fro
 This kind of system is known as attention-based system, which automatically learns to describe the content of an image in words. We can train this model in a standard manner using standard backprop technique and stochastically by maximizing a variationally lower bound.  
 
 ---
-I found these two papers quite handy:
+> I found these two papers quite handy:
  - Show and Tell: A Neural Image Caption Generator
  -	Show, Attend and Tell: Neural Image Caption Generation with Visual image
 
