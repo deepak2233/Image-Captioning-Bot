@@ -57,6 +57,7 @@ I found these two papers quite handy:
 1.	Show and Tell: A Neural Image Caption Generator
 2.	Show, Attend and Tell: Neural Image Caption Generation with Visual image
 
+---
 > System Information
 
 1. Encoder : Used Convolution Neural Network
@@ -64,3 +65,20 @@ I found these two papers quite handy:
   - Initializing weights of the last fully connected layer using normal distribution having mean of 0 and standard deviation of 0.02
   - Used a Batch Norm layer with momentum = 0.01
 2. Decoder : Used GRU based Recurrent Neural Network
+
+---
+### Output
+The output of the model is a caption to the image and a python library called pyttsx which converts the generated text to audio
+
+### Results
+<p align = 'center'>
+  <img src = './Support/first2.jpg' align = 'center'>
+</p>
+
+<p align = 'center'>
+  <img src = './Support/second2.jpg' align = 'center'>
+</p>
+
+<p align = 'center'>
+  <img src = './Support/third.jpg' align = 'center'>
+</p>
