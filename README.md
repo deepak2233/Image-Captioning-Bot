@@ -35,6 +35,7 @@ Pyttsx
 5.	Can be used to give something back to mankind for visually impaired people.
  and many more.
 
+---
 The task of image captioning can be divided into two modules logically – one is an `image-based model` – which extracts the features and nuances out of our image, and the other is a `language-based model` – which translates the features and objects given by our image-based model to a natural sentence.    
 For our image-based model (viz encoder) – we usually rely on a `Convolutional Neural Network` model. And for our language-based model (viz decoder) – we rely on a `Recurrent Neural Network`. The image below summarizes the approach given above.
 
@@ -42,6 +43,7 @@ For our image-based model (viz encoder) – we usually rely on a `Convolutional 
   <img src = './Support/arch.png' width = '50%' height = '50%'>
 </p>
 
+---
 This architecture heavily employees ``"Encoder-Decoder"`` framework where encoder part is implemented using the convnet architecture and decoder part is implemented using GRU cell based recurrent nets.
 
 <p align = 'center'>
