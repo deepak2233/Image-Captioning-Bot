@@ -43,32 +43,9 @@ For our image-based model (viz encoder) – we usually rely on a `Convolutional 
   <img src = './Support/arch.png' width = '50%' height = '50%'>
 </p>
 
----
-This architecture heavily employees ``"Encoder-Decoder"`` framework where encoder part is implemented using the convnet architecture and decoder part is implemented using GRU cell based recurrent nets.
-
-<p align = 'center'>
-  <img src = './Support/encod-decod.png' align = 'center'>
-</p>
 
 ---
-For the convnet part we can employ transfer learning and can use some models from ImageNet and then Fine tune them as per our requirement.  
-This kind of system is known as attention-based system, which automatically learns to describe the content of an image in words. We can train this model in a standard manner using standard backprop technique and stochastically by maximizing a variationally lower bound.  
 
----
-> I found these two papers quite handy:
- - Show and Tell: A Neural Image Caption Generator
- -	Show, Attend and Tell: Neural Image Caption Generation with Visual image
-
----
-> System Information
-
-1. Encoder : Used Convolution Neural Network
-  - A Pretrained ResNet 152 module and used it as a fixed feature extractor, removing the classification layer and outputting a vector of length 512.
-  - Initializing weights of the last fully connected layer using normal distribution having mean of 0 and standard deviation of 0.02
-  - Used a Batch Norm layer with momentum = 0.01
-2. Decoder : Used GRU based Recurrent Neural Network
-
----
 ### Output
 The output of the model is a caption to the image and a python library called pyttsx which converts the generated text to audio
 
