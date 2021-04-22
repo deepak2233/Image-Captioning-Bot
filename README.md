@@ -52,13 +52,20 @@ The output of the model is a caption to the image and a python library called py
 ---
 ### Results
 <p align = 'center'>
-  <img src = './Support/first2.jpg' align = 'center'>
+  <img src = './Support/1.png' align = 'center'>
 </p>
 
 <p align = 'center'>
-  <img src = './Support/second2.jpg' align = 'center'>
+  <img src = './Support/2.png' align = 'center'>
 </p>
 
 <p align = 'center'>
-  <img src = './Support/third.jpg' align = 'center'>
+  <img src = './Support/3.png' align = 'center'>
 </p>
+
+<p align = 'center'>
+  <img src = './Support/4.png' align = 'center'>
+</p>
+
+---
+
