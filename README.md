@@ -47,7 +47,7 @@ For our image-based model (viz encoder) – we usually rely on a `Convolutional 
 ---
 
 ### Output
-The output of the model is a caption to the image and a python library called pyttsx which converts the generated text to audio
+The output of the model is a caption to the image generated text 
 
 ---
 ### Results
